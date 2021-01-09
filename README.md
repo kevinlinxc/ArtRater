@@ -4,7 +4,7 @@ This project is an attempt to create a Convolutional Neural Net that predicts ho
 
 I was hoping that in using a CNN, I could identify features that highly upvoted posts have.
 
-The main tool used is **Keras**, and pictures were downloaded from Reddit for training using **PSAW** (PushShift API Wrapper) and **PRAW** (Python Reddit API Wrapper)
+The main tool used is **Tensorflow/Keras**, and pictures were downloaded from Reddit for training using **PSAW** (PushShift API Wrapper) and **PRAW** (Python Reddit API Wrapper)
 
 The neural net ended up not training too well, with the accuracy plateauing around 25%. I'm not sure
 if it's because it's naturally hard to find a pattern that highly rated posts share, or if it's a flaw in my implementation of the convolutional layers.
