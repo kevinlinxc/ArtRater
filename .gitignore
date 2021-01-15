@@ -5,3 +5,4 @@ src/picsfix
 src/picsfix2
 .idea
 venv
+trainedmodels/*
